@@ -175,7 +175,7 @@
     <description>Deactivate the Multiple user</description>
     <dynamicChoiceSets>
         <name>Active_user_collection</name>
-        <collectionReference>getUserRecord</collectionReference>
+        <collectionReference>getUserRecordId</collectionReference>
         <dataType>String</dataType>
         <displayField>Username</displayField>
         <object>User</object>
@@ -226,7 +226,7 @@
         <label>Iterate selectes users</label>
         <locationX>182</locationX>
         <locationY>638</locationY>
-        <collectionReference>getUserRecord</collectionReference>
+        <collectionReference>getUserRecordId</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
             <targetReference>Check_users_selected_or_Not</targetReference>
@@ -240,7 +240,7 @@
         <label>iterate users</label>
         <locationX>930</locationX>
         <locationY>638</locationY>
-        <collectionReference>getUserRecord</collectionReference>
+        <collectionReference>getUserRecordId</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
             <targetReference>Check_user_selected_or_Not</targetReference>
@@ -269,8 +269,8 @@
     </processMetadataValues>
     <processType>Flow</processType>
     <recordLookups>
-        <name>getUserRecord</name>
-        <label>getUserRecord</label>
+        <name>getUserRecordId</name>
+        <label>getUserRecordId</label>
         <locationX>556</locationX>
         <locationY>158</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
@@ -413,7 +413,7 @@
         <locationX>430</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>getUserRecord</targetReference>
+            <targetReference>getUserRecordId</targetReference>
         </connector>
     </start>
     <status>Draft</status>
