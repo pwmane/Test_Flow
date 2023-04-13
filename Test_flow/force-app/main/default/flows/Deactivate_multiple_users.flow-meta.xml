@@ -188,7 +188,7 @@
         <filterLogic>and</filterLogic>
         <filters>
             <field>IsActive</field>
-            <operator>EqualTo</operator>
+            <operator>Equad=slTo</operator>
             <value>
                 <booleanValue>true</booleanValue>
             </value>
